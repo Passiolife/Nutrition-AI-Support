@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report an issue with the Postman platform.
+description: Report an issue with Nutrition AI.
 body:
 - type: checkboxes
   attributes:
@@ -49,15 +49,15 @@ body:
     required: true
 - type: input
   attributes:
-    label: Postman Version
-    description: Which version of the platform are you using? This can be found in 'General Settings > Settings > About'.
+    label: SDK Version
+    description: Which version of the SDK are you using? This can be found in 'General Settings > Settings > About'.
     placeholder: "10.12.0"
   validations:
     required: true
 - type: dropdown
   attributes:
-    label: Postman Platform
-    description: Which Postman platform are you using?
+    label: Module Version
+    description: Which module version are you using?
     options:
       - Postman App
       - Postman Web
