@@ -57,3 +57,10 @@ body:
     placeholder: "10.12.0"
   validations:
     required: false
+- type: input
+  attributes:
+    label: Customer Name
+    description: Add your customer name, so that we can more easily debug your issue.
+    placeholder: "Calorie Company X"
+  validations:
+    required: false
